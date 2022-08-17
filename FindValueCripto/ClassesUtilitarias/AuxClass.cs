@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FindValueCripto.Formularios;
-using LibraryWebClass;
+using ValueCriptoExtractor;
 
 namespace FindValueCripto.ClassesUtilitarias
 {
@@ -24,7 +24,7 @@ namespace FindValueCripto.ClassesUtilitarias
             try
             {
                 var SharePriceBitcoin = new GetSharePrice(regex, url);
-                return SharePriceBitcoin.FindValue();
+                return SharePriceBitcoin.FindValue(Format.PT);
             }
             catch
             {

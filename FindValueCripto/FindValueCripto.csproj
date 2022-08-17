@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="LibraryWebClass">
-      <HintPath>..\..\..\CalculoCripto02.08.2022_Extrair\ProjetoCalculoCrypto\LibraryWebClass\bin\Release\LibraryWebClass.dll</HintPath>
+    <Reference Include="ValueCriptoExtractor">
+      <HintPath>..\..\..\Bibliotecas\ValueCriptoExtractor\ValueCriptoExtractor\ValueCriptoExtractor\bin\Release\net6.0\ValueCriptoExtractor.dll</HintPath>
     </Reference>
   </ItemGroup>
 
